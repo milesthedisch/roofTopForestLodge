@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic|Merriweather:400|Open+Sans:300|Open+Sans:600|Open+Sans+Condensed:700|Libre+Baskerville:italic);
+
+.header-container {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid black;
+	padding: 1px;
+	margin: 0 auto;
+}
+
+.top-nav {
+	border: 1px solid red;
+	width: 100%;
+	display: inline-block;
+}
+
+.main-nav {
+	display: inline-block;
+	border: 1px solid green;
+	width: 100%;
+
+}
+
+.nav-logo {
+	display: inline-block;
+	border: 1px solid purple;
+	width: 20%;
+	height: 100px;
+}
+
+.list-container {
+	display: inline-block;
+	border: 1px solid orange;
+	padding-left: 1rem;
+	float: right;
+	width: 50%;
+	height: 100px;
+	margin: 0;
+	text-align: right;
+}
+
+.list-container li {
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 4rem;
+
+}
