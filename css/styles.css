@@ -23,6 +23,7 @@ header {
 .top-nav {
 	width: 100%;
 	display: inline-block;
+
 }
 
 
@@ -43,7 +44,7 @@ header {
 	width: 20%;
 	height: 100px;
 	font-size: 100px;
-	color: rgba(200,150	,0,0.5);
+	color: rgba(150,150	,150,0.8);
 	text-align: center;
 }
 
@@ -85,20 +86,31 @@ header {
 	height: 80vh;
 }
 
-.top-main-content {
-	height: 300px;
-
-}
-
 .main-content {
 	height: 100vh;
+}
+
+.top-main-content {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 20px;
+	padding: 30px 50px 30px 50px;
+	text-align: center
+}
+
+body .top-main-content .bold-content {
+	font-family: Open Sans;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 40px, 50px, 0, 50px;
+
 }
 
 /*columns*/
 
 .three_col {
     display: flex;
-    border: 1px solid red;
     height: 100vh;
 
 }
@@ -106,7 +118,31 @@ header {
 .three_col div 	{
     flex: 1;
     background: white;
-    border: 1px solid black;
+}
+
+.col_1 {
+	padding: 4rem;
+}
+
+.col_1 .content-side {
+	width: 85%;
+	height: 40%;
+	display: inline-block;
+	padding-left: 40px;
+} 
+
+.three_col p {
+	margin: 0;
+	font-family: Open Sans;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 200;
+}
+
+.col_1 .logo-side {
+	position: absolute;
+	font-size: 40px;
+	display: inline-block;
 }
 
 .col_2 {
@@ -154,3 +190,5 @@ body .slick-next{
 }
 
 /*logo*/
+
+
