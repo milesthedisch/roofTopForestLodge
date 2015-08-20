@@ -1,47 +1,153 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic|Merriweather:400|Open+Sans:300|Open+Sans:600|Open+Sans+Condensed:700|Libre+Baskerville:italic);
+* {
+	box-sizing: border-box;
+}
 
-.header-container {
-	display: inline-block;
-	width: 100%;
-	border: 1px solid black;
-	padding: 1px;
-	margin: 0 auto;
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: relative;
+}
+
+.clear {
+	clear: both;
+}
+
+.main-container {
+	height: 100vh;
 }
 
 .top-nav {
-	border: 1px solid red;
 	width: 100%;
 	display: inline-block;
 }
 
+
 .main-nav {
 	display: inline-block;
-	border: 1px solid green;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 	width: 100%;
-
+	height: 100px;
+	position: absolute;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0);
 }
 
 .nav-logo {
 	display: inline-block;
-	border: 1px solid purple;
 	width: 20%;
 	height: 100px;
+	font-size: 100px;
+	color: rgba(200,150	,0,0.5);
+	text-align: center;
 }
 
 .list-container {
 	display: inline-block;
-	border: 1px solid orange;
-	padding-left: 1rem;
+	padding-left: 10rem;
 	float: right;
 	width: 50%;
 	height: 100px;
 	margin: 0;
-	text-align: right;
+	text-align: center;
 }
 
 .list-container li {
 	display: inline-block;
 	line-height: 100px;
-	margin: 0 4rem;
+	margin: 0 1rem;
+	font-family: Lovelo, sans-serif;
+	letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list-container a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.4);
+}
+.list-container a:hover {
+	color: rgba(255,255,255,0.9);
+}
+
+.links-change {
+	color: rgba(0 0 0 1);
+}
+
+.slide-container {
+	display: block;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+.top-main-content {
+	height: 300px;
 
 }
+
+.main-content {
+	height: 100vh;
+}
+
+/*columns*/
+
+.three_col {
+    display: flex;
+    border: 1px solid red;
+    height: 100vh;
+
+}
+
+.three_col div 	{
+    flex: 1;
+    background: white;
+    border: 1px solid black;
+}
+
+.col_2 {
+    order: 2;
+    background: green;
+}
+
+
+/* images */
+
+.pic1 {
+	background-image: url(http://www.lorempixel.com/1280/400);
+}
+
+.pic2 {
+	background-image: url(http://www.lorempixel.com/1280/400);
+}
+
+.pic3 {
+	background-image: url(http://www.lorempixel.com/1280/400);
+}
+
+/*slick*/
+body .slick-slide {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body .slick-slider{
+	margin-bottom: 0px;
+}
+
+body .slick-prev{
+	left: 10px;
+	z-index: 1;
+}
+
+body .slick-next{
+
+	right: 10px;
+}
+
+/*logo*/
