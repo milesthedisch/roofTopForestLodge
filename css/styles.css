@@ -82,7 +82,7 @@ header {
 .slide-container {
 	display: block;
 	margin: 0 auto;
-	height: 100vh;
+	height: 80vh;
 }
 
 .top-main-content {
@@ -118,15 +118,18 @@ header {
 /* images */
 
 .pic1 {
-	background-image: url(http://www.lorempixel.com/1280/400);
+	background-image: url(http://www.lorempixel.com/1280/800);
+	background-size: cover;
 }
 
 .pic2 {
-	background-image: url(http://www.lorempixel.com/1280/400);
+	background-image: url(http://www.lorempixel.com/1280/800);
+	background-size: cover;
 }
 
 .pic3 {
-	background-image: url(http://www.lorempixel.com/1280/400);
+	background-image: url(http://www.lorempixel.com/1280/800);
+	background-size: cover;
 }
 
 /*slick*/
