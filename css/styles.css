@@ -158,17 +158,17 @@ body .bold-content {
 
 .pic1 {
 	background-image: url(http://www.lorempixel.com/1280/800);
-	background-size: cover;
+	background-size: 110%;
 }
 
 .pic2 {
 	background-image: url(http://www.lorempixel.com/1280/800);
-	background-size: cover;
+	background-size: 110%;
 }
 
 .pic3 {
 	background-image: url(http://www.lorempixel.com/1280/800);
-	background-size: cover;
+	background-size: 110%;
 }
 
 /*slick*/
